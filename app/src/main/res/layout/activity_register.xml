@@ -1,9 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity">
+    android:orientation="vertical"
+    tools:context=".RegisterActivity"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/bg">
 
-</android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="48dp"/>
+
+
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/name_editText"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                />
+
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/noOfFamilyMembers_editText"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Number of Family Members"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                />
+
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/age_editText"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Age"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                />
+
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/lossOfWage_editText"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Loss of Wages per day"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                />
+
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/presentAddress_editText"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Present Address"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                />
+
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/phoneNumber_editText"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:ems="10"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            style="@style/DefaultButton"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+
+
+            android:text="@string/register" />
+
+
+</LinearLayout>
+</ScrollView>

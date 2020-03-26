@@ -1,8 +1,8 @@
 package com.example.android.upes.tracer_android;
 
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
+//import android.support.annotation.NonNull;
+//import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -10,6 +10,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -68,7 +71,7 @@ public class LoginActivity extends AppCompatActivity {
                             Log.d("AUTH SUCCESS", "signInWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
                             if(user!=null){
-                            startActivity(new Intent(LoginActivity.this,MainActivity.class));}
+                            startActivity(new Intent(LoginActivity.this,Dashboard.class));}
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w("AUTH FAILED", "signInWithEmail:failure", task.getException());
@@ -84,7 +87,7 @@ public class LoginActivity extends AppCompatActivity {
         if(email.equals(null)){
             Toast.makeText(this, "Please Enter Username", Toast.LENGTH_SHORT).show();
         }
-        if(email.equals(null)){
+        if(password.equals(null)){
             Toast.makeText(this, "Please Enter Password", Toast.LENGTH_SHORT).show();
         }
     }

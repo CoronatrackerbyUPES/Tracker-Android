@@ -23,36 +23,29 @@
             android:src="@drawable/logo"
             />
 
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="10dp">
 
-            <android.support.design.widget.TextInputEditText
-                android:id="@+id/editTextEmail"
-                android:inputType="textEmailAddress"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/email"
-               />
-        </android.support.design.widget.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            app:passwordToggleTint="@color/colorPrimary"
-            app:passwordToggleEnabled="true"
-            android:layout_marginBottom="10dp">
+            <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextEmail"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+        />
 
-            <android.support.design.widget.TextInputEditText
+
+
+            <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/editTextPassword"
                 android:layout_width="match_parent"
                 android:inputType="textPassword"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp"
                 android:hint="@string/password" />
-        </android.support.design.widget.TextInputLayout>
+
 
         <Button
             android:id="@+id/buttonLogin"
