@@ -26,13 +26,14 @@
 
 
             <androidx.appcompat.widget.AppCompatEditText
-                android:id="@+id/editTextEmail"
-                android:inputType="textEmailAddress"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/email"
-               />
-
+        android:id="@+id/editTextEmail"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+        />
 
 
 
@@ -41,6 +42,8 @@
                 android:layout_width="match_parent"
                 android:inputType="textPassword"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp"
                 android:hint="@string/password" />
 
 

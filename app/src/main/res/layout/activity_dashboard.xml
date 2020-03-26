@@ -21,10 +21,10 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:foreground="?android:attr/selectableItemBackground"
                     android:clickable="true"
-                    android:id="@+id/bankcardId"
+                    android:id="@+id/RegisterCard"
                     android:layout_width="160dp"
                     android:layout_height="157dp"
                     android:layout_margin="10dp"
@@ -52,15 +52,15 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="MODULE 1"
+                            android:text="REGISTER"
                             android:textColor="@color/green"
                             android:textSize="18dp" />
 
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
-                <android.support.v7.widget.CardView
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
                     android:foreground="?android:attr/selectableItemBackground"
                     android:clickable="true"
                     android:id="@+id/bankcardId1"
@@ -98,7 +98,7 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
             </LinearLayout>
             <LinearLayout
@@ -107,7 +107,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:foreground="?android:attr/selectableItemBackground"
                     android:clickable="true"
                     android:id="@+id/bankcardId2"
@@ -146,8 +146,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
-                <android.support.v7.widget.CardView
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
                     android:foreground="?android:attr/selectableItemBackground"
                     android:clickable="true"
                     android:id="@+id/bankcardId3"
@@ -185,7 +185,7 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
             </LinearLayout>
             <LinearLayout
@@ -194,7 +194,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:foreground="?android:attr/selectableItemBackground"
                     android:clickable="true"
                     android:id="@+id/bankcardId5"
@@ -231,8 +231,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
-                <android.support.v7.widget.CardView
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
                     android:foreground="?android:attr/selectableItemBackground"
                     android:clickable="true"
                     android:id="@+id/bankcardId4"
@@ -275,7 +275,7 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
             </LinearLayout>
         </LinearLayout>
