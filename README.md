@@ -7,6 +7,12 @@ Android application for tracing users in need of financial support.
 * Firebase DB
 * GitHub Actions to automate build Gradle
 
+## Modules covered
+
+* Main
+* Login
+* Register
+
 ## How to Contribute
 
 Please follow these [guidelines](CONTRIBUTING.md) to contribute to this repository.
